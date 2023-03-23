@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* took away the period before header due to html code not being a class attribute */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,6 +42,7 @@ header div ul li {
     margin-left: 25px;
 }
 
+/* added 10px to margin to compensate fix relating to first html change*/
 a {
     color: #ffffff;
     text-decoration: none;
@@ -76,6 +78,7 @@ p {
     margin-left: 20px;
 }
 
+/* calibri was missing quotations*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -87,6 +90,7 @@ p {
     background-color: #2589bd;
 }
 
+/* consolidated repeating code*/
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
@@ -103,6 +107,7 @@ p {
     max-width: 150px;
 }
 
+/* got rid of excess elements that had repeating code */
 .header {
     margin-bottom: 20px;
     padding: 50px;
